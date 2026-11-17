@@ -150,7 +150,7 @@
         <div class="rx-sym">℞</div>
       </div>
       <div class="line"><span class="lab">Patient</span><span class="hand">Dr. Fariha</span></div>
-      <div class="line"><span class="lab">Date</span><span class="hand">Tuesday, 1 December 2026</span></div>
+      <div class="line"><span class="lab">Date</span><span class="hand">Wednesday, 2 December 2026</span></div>
       <div class="line"><span class="lab">Diagnosis</span><span class="hand">works way too hard, deserves a break</span></div>
       <div class="line"><span class="lab">Treatment</span><span class="hand">one (1) full day out with me</span></div>
       <div class="line"><span class="lab">Dosage</span><span class="hand">12:45 pm until the lights come on</span></div>
@@ -329,8 +329,8 @@ no.addEventListener('click',dodge);
 
 document.getElementById('yesBtn').addEventListener('click',e=>{
   for(let k=0;k<4;k++)setTimeout(()=>burst(innerWidth*(.2+Math.random()*.6),innerHeight*(.3+Math.random()*.4),22),k*220);
-  const msg=encodeURIComponent("Prescription accepted, see you Tuesday 1 Dec at 12:45! 💖");
-  document.getElementById('rsvp').innerHTML=`<div class="yay fadeup">Prescription accepted! 💌<br>See you Tuesday, 1 Dec, 12:45 PM.
+  const msg=encodeURIComponent("Prescription accepted, see you Wednesday 2 Dec at 12:45! 💖");
+  document.getElementById('rsvp').innerHTML=`<div class="yay fadeup">Prescription accepted! 💌<br>See you Wednesday, 2 Dec, 12:45 PM.
     <div style="margin-top:20px"><a class="btn" href="https://wa.me/60179838126?text=${msg}" target="_blank" rel="noopener" style="background:#25D366;text-decoration:none;box-shadow:0 8px 20px rgba(37,211,102,.35)">💬 Send my confirmation on WhatsApp</a></div>
     <small>Tap the button to send it my way ✨</small></div>`;
   document.getElementById('foot').classList.remove('hidden');
